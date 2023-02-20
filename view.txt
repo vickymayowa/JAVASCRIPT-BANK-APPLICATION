@@ -1,0 +1,66 @@
+BAnk Application 
+
+pages -
+{
+sign in 
+sign up 
+dashboard 
+landing page
+transaction page
+history
+profile
+settings
+}
+logic
+signup
+signin
+logout
+deposit
+transfer
+transaction(
+        buy airtime pay for flights
+            )
+Data Structure
+
+alusers:[
+    firstname ; string,
+    lastname: string,
+    email : string,
+    password :  string,
+    phonenumber:    string,
+    accountnumber:  string,
+    pin:  string,
+    address:  string,
+    dob:  string,
+    gender: string,
+    nationality: string,
+    profilepicture: string,
+    NIN,BVN:  Number:
+    balance :  Number,
+]
+
+transactionHistory : transferdesscription, accountnumber(sender, receiver), date and time, transaction
+transactionID, amount, trnasactionTYpe(debit)
+
+
+ASYNCHRONOUS PROGRAMMING
+
+async & await
+
+Application PROGRAMMING interface(API)
+
+
+Consuming API
+https://jsonplaceholder.typicode.com
+ENDPOINT -URL 
+
+tools for fetching from an api 
+fetch api 
+axios
+ajax
+
+JSON. JAVASCRIPT OBJECT NOTATION
+
+RESTAURANT 
+
+

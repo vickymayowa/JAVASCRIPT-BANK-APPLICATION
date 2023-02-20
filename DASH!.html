@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>DashBoard VickyPay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="./styledash.css">
+</head>
+<body> 
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars">
+                    </i>
+                </a>
+                <a href="DASH!.html"class="brand-logo">
+                <i class="fas fa-user">
+                </i>
+             </a>
+            </header>
+            <nav class="dashboard-nav-list">
+                    <a href="DASH!.html" class="dashboard-nav-item active">
+                        <i class="fas fa-home">
+                        </i>DashBoard
+                    </a>
+                    <a href="data.html" class="dashboard-nav-item active">
+                        <i class="fas fa-tachometer-alt">
+                        </i> Data Transaction
+                    </a>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-file-upload">
+                    </i> Transactions </a>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-users">
+
+                        </i> Account  </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="profile.html"  class="dashboard-nav-dropdown-item">-Profile</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Upgrade Account</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-KYC</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Pin Management</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Change Password</a></div>
+                </div>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="wallet.html" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-money-check-alt"></i> Fund Wallet
+                    </a>
+                </div>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-cogs"></i> Settings</a>
+                    <a href="profile.html" class="dashboard-nav-item">
+                        <i class="fas fa-user"></i> Profile </a>
+              <div class="nav-item-divider"></div>
+              <a  href="login.html" class="dashboard-nav-item">
+                <i class="fas fa-sign-out-alt"></i> Logout</a>
+            </nav>
+            <section class="text-muted text-start ms-5">Version 1.5</section>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar'>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars">
+                    </i>
+                </a>
+            </header>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <div class='marquee text-muted text-uppercase fw-lighter' style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 25px; height: 50px;">
+                            <marquee behavior="normal" direction="l" class="mt-2">   
+                                <i class="fas fa-profile"></i>
+                                Dear <Span id="display"></Span>,
+                                You Can now deposit to your wallet balance on our website, and also Check your Transaction History.We ensure to give u maxiumum satisfaction. Stay blessed and Stay Safe
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+                <section class="d-lg-flex d-sm-block">
+                <div class='mt-2 text-muted card  ms-2 col-lg-6 col-sm-6 col-xm-12 ' style="height: 400px; background-color: #6E00FF;">
+                    <div class="button-side d-flex ms-3 mt-5">
+                        <a href="wallet.html">
+                        <button class="btn text-white" style="background-color: #FFA500; border-color: white;">+Fund Wallet</button>
+                        </a>
+
+                        <button class="btn  ms-2 text-white" style="background-color: #FFA500; border-color: white;">+Upgrade Account</button>
+                    </div>
+                    <h6 class="text-start ms-3 text-white mt-4" style="font-size: larger;">Welcome,<span id="disname"></span></h6>
+                        <span class="fw-lighter text-white  ms-3 text-white mt-1" style="font-size: larger;">Account Number<h5 class="fw-lighter text-white" id="accNO"></h5>
+                        </span>
+                        <h5 class="text-start ms-3 text-white mt-1 fw-bold">Smart Earner</h5>
+                        <div class="wallet-side">
+                        <section class="text-dark ms-1 text-muted">
+                                <h5 class="text-start ms-3 text-white mt-3">
+                                    ₦<span id="balance" class="text-center text-white"></span>
+                                </h5>
+                                <h4 class="mt-3 text-start ms-3 text-white">Wallet Balance</h4>
+                         </section>
+                         <div class="withdraw  my-2 ms-3">
+                            <a href="transfer.html">
+                                <button class="btn btn-primary">Transfer</button>
+                            </a>
+                            <a href="deposit.html">
+                                <button class="btn text-white ms-3" style="background-color: blue; border-color: white;">Deposit</button>
+                            </a>
+                         </div>
+                        </div>
+            </div>
+
+
+        <div class="col-xl-6 box-margin height-card" id="accordion">
+            <div class="card mt-2">
+                <div class="card-body">
+                    <h5 class="card-title">Services</h5>
+                    <div class="transaction-area">
+                        <div class="row">
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                   <a href="#">
+                                    <div class="card" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                        								<img src="https://naijadatasub.com.ng/static/dashboard/assets/img/airtime.svg" style="height:40px !important">
+                        							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Buy Airtime</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="https://naijadatasub.com.ng/static/dashboard/assets/img/data.jpg" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Buy Data</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="./usefull pics/cable.jpg" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Cable Subscription</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card mt-3" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="./usefull pics/utility.jpg" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Bill Payment</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card mt-3" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="https://naijadatasub.com.ng/static/dashboard/assets/img/sms.png "  style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Bulk SMS</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card mt-3" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="https://naijadatasub.com.ng/static/dashboard/assets/img/airtime2cash.jpg" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Airtime to cash</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card mt-3" style="height:116px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="https://play-lh.googleusercontent.com/Vse_HvYw4_KZsvVf0NXXWBNnwEq0GVsihLw5z9yzc14MY8vuBet4Vl_shjP0EGg0WuU" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Recharge card Printing</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card mt-3" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="usefull pics/resultchecker.png" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Result Checker</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-xl-4 col-lg-4 col-6 box-margin height-card" id="accordion">
+                                <a href="#">
+                                    <div class="card mt-3" style="height:109px !important">
+                                        <div class="card-body p-3 text-center">
+                                            <span style="font-size: 30px;">
+                								<img src="https://play-lh.googleusercontent.com/Vse_HvYw4_KZsvVf0NXXWBNnwEq0GVsihLw5z9yzc14MY8vuBet4Vl_shjP0EGg0WuU" style="height:40px !important">
+                							</span>
+                                            <div class="h5 m-2 text-dark" style="font-size: 12px">Buy Data Pin</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+         </div>
+        </div>
+</div>
+    </div>
+</section>
+
+<hr>
+<div class="container mt-5 ms-2 my-3">
+    <h4 class="text-muted">TRANSACTION STATISTICS</h4>
+    <div class="center-d-sm-block d-lg-flex">
+<div class="col-sm-6 col-md-4 mt-4">
+    <div class="card card-stats card-round">
+        <div class="card-body ">
+            <div class="row">
+                <div class="col-5">
+
+                </div>
+                <div class="text-center mt-2">
+                    <div class="numbers">
+                        <p class="card-category">Total Deposited</p>
+                        <h4 class="card-title">₦<span id="deposi"> 00.0</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-4 mt-4">
+    <div class="card card-stats card-round">
+        <div class="card-body ">
+            <div class="row">
+                <div class="col-5">
+                    <div class="icon-big text-center">
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <div class="numbers">
+                        <p class="card-category">Total Withdraw</p>
+                        <h4 class="card-title">₦ <span id="withdran">00.0</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="col-sm-6 col-md-4 mt-4">
+    <div class="card card-stats card-round">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-5">
+                    <div class="icon-big text-center">
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <div class="numbers">
+                        <p class="card-category">Total Transfer</p>
+                        <h4 class="card-title">₦ <span id="trans">00.0</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-lg-12 mt-4">
+        <div class="card card-stats card-round">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="icon-big text-center">
+                        </div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <div class="numbers">
+                            <p class="card-category">Total Received</p>
+                            <h4 class="card-title">₦ <span id="receve">00.0</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="col-xl-12
+ mt-5 box-margin popup">
+    <div class="card mt-5">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="card-title">Recent Wallet Summary</h6>
+                </div>
+                <a href="trasact.html" class="btn btn-primary btn-"><i class="fa fa-list"></i> see all</a>
+            </div>
+            <div class="text-summary d-lg-flex d-sm-block">
+                <div class="Trabs d-lg-flex justify-content-space-between align-items-center">
+                    <h5 class="Summary-text" id="Amount"></h5>
+                    <h5 class="Summary-text" id="Stau"></h5>
+                    <h5 class="Summary-text" id="Types"></h5>
+                    <h5 class="Summary-text"></h5>
+                    <h5 class="Summary-text"></h5>
+                    <h5 class="Summary-text"></h5>
+                </div>
+            </div>
+    </div>
+</section>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+<script src="dash.js"></script>
+</body>
+</html>

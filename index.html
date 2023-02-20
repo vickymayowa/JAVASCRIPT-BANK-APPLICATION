@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO  VickyPay</title>
+    <link rel="shortcut icon" type="image" href="./pics/vickypaycom-high-resolution-logo-black-on-white-background-removebg-preview.png">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body onload="message()" class="mx-auto">
+<nav class="navbar navbar-expand-lg  navbar-white navbar- " id="navbar">
+    <div class="container">
+
+        <a class="navbar-brand text-uppercase" href="index-1.html">
+             <img class="logo-light" src="./pics/vickypaycom-high-resolution-logo-black-on-white-background-removebg-preview.png" height="120" class=" ms-4 mx-auto" alt="image"> 
+        </a>
+
+        <button class="navbar-toggler w-25 ms-2 mt-4" style="height: 50px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mdi mdi-menu  fw-lighter text-dark">MENU</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size: 20px;">
+            <ul class="navbar-nav mx-auto text-dark fw-bold" id="navbar-navlist" style="font-family: Georgia, 'Times New Roman', Times, serif; gap: 70px; display: flex; list-style: none; position: relative;">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><i class="ri-home-line"></i>About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" style="font-family: sans-serif;"><i class="ri-profile-line"></i>Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./create.html"  style="font-family: sans-serif;"><i class="ri-feedback-line"></i>Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+     <div class="main1">
+        <div class="d-grid d-md-none d-lg-flex">
+            <div class=" d-md-none  mx-auto align-items-center mt-5 d-lg-flex d-sm-none">
+                 <img src="./pics/images__1_-removebg-preview.png" class="image w-100  mx-auto" alt="">
+                 <div class=" ms-auto text-light">
+                    <h3 class="my-2 text-dark fw-lighter text-center mx-auto" style="top: 30px; position:relative">Welcome to VickyPay.com!
+                        <br>
+                        <br>
+                        We are thrilled to offer our customers a wide range  of products and services that are sure to meet their needs.</h3>
+                        <br>
+                        <div class="deanger mt-4 d-lg-flex d-sm-flex">
+                            <button class="btn btn-success mt-3 ms-3" style="height: 60px;" onclick="create()">Create An Account<i class="ri-arrow-right-fill"></i></button>
+                            <button class="btn btn-dark mt-3 ms-2" style="height: 60px; width: 150px;" onclick="log()">Log In<i class="ri-arrow-right-fill mt-2"></i></button>
+                        </div>
+                </div>
+                 </div> 
+             </div>
+        </div>
+        <section class="section services mt-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-12">
+                        <div class="text-center mb-5">
+                                <h6 class=" text-center fw-lighter mt-5" style="font-size: 50px; text-decoration: underline;">Why <span class="fw-lighter" style="color: #0D6EFD;">Choose Us?</span></h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mx-auto">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="box">
+                                        <div class="flex-shrink-0 my-3 justify-content-center">
+                                            <div class="avatar-sm  mx-auto">
+                                                <div class="avatar-title col-6 ms-5 mx-auto">                                           
+                                                    <img src="./assets landing page/h.png" height="40">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p style="color: #0d6efd;" class="text-center">We Are Automated</p>
+                                        <p>
+                                            We use cutting-edge technology to run our services. Our data delivery and wallet funding is automated, airtime top-up and data purchase are automated and get delivered to you almost instantly..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="box">
+                                        <div class="flex-shrink-0 my-3">
+                                            <div class="avatar-sm align-items-center">
+                                                <div class="avatar-title col-6 ms-5 mx-auto">                                        
+                                                    <img src="./assets landing page/cyber-security (2).png" height="40">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p style="color: #0d6efd;" class="text-center">We are 100% secure</p>
+                                        <p>
+                                            Your e-wallet is the safest, easiest and fastest means of carrying out transactions with us. Your funds are secured with your e-wallet PIN and can be kept for you for as long as you want. You can also withdraw it any time.
+        
+        
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="box">
+                                        <div class="flex-shrink-0 my-3">
+                                            <div class="avatar-sm align-items-center">
+                                                <div class="avatar-title col-6 ms-5 mx-auto">                                          
+                                                    <img src="./assets landing page/support.png" height="40">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p style="color: #0d6efd;" class="text-center"> 24/7 Support </p>
+                                        <p>
+                                           
+                                            Our customers are premium to us, hence satisfying them is our topmost priority. Our customer service is just a click away.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="box">
+                                        <div class="flex-shrink-0 my-3">
+                                            <div class="avatar-sm align-items-center">
+                                                <div class="avatar-title col-12 ms-5 mx-auto">                                      
+                                                    <img src="./assets landing page/rel.png" height="40">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p style="color: #0d6efd;" class="text-center">We are Reliable</p>
+                                        <p>
+                                            VickyPay is a fully optimized platform for reliability and dependability. You get 100% value for any transaction you carry with us..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <div class="container">
+         <h4 class="#about mx-auto mt-5 ms-4 text-center" style="text-decoration: underline; font-family: serif; font-size: 70px;">About Us</h4>
+        <div class="tab-pane fade active show" id="pills-privacy_policy" role="tabpanel" aria-labelledby="pills-privacy_policy-tab">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about-img">
+                            <img src="./pics/easy transaction.png" class="img-fluid w-100 mt-5 ms-5 mx-auto mb-5 my-5"  alt="image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 " style="font-size: 18px;">
+                            <p class="text-darkfw-lighter" style="font-family: sans-serif;">We have been one of the best telecommunication platform for some months now. Our goal and vision is to support the race of informaton and communication technology services in Nigeria and to support and help individuals to earn by rendering telecommuncation services from us at extremelly cheap rate from our platform. Many people have joined and our existing Clients had been enjoying this platform and ever since our exstence. We warmly welcome you as you join.  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-12">
+                       
+                    </div>
+    
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="./set.js"></script>
+      <script src="count.js"></script>
+</body>
+</html>
+
+<!-- vicky pay mission statement
+"Our mission at Viclink Data Ventures is to empower businesses and organizations through cutting-edge data solutions and services. We strive to help our clients make informed decisions and drive growth by unlocking the full potential of their data. We are dedicated to delivering innovative and reliable solutions, built on a foundation of integrity, collaboration, and continuous improvement.
+"Our vision at Viclink Data Ventures is to be a global leader in the data solutions industry, setting the standard for excellence and innovation. We aspire to transform the way businesses harness the power of data to drive growth, improve decision-making, and create a more data-driven world. Through our commitment to exceptional service and our unwavering dedication to our clients' success, we will continue to shape the future of data and technology." -->
+
+
+ <!-- Terms and Conditions  -->
+ <!-- Viclick Data Ventures Terms and Conditions
+
+Introduction:
+Viclick Data Ventures provides data analytics services to organizations looking to unlock the full potential of their data. These terms and conditions (“Terms”) govern the use of our services and are binding on all clients of Viclick Data Ventures. By using our services, you agree to be bound by these Terms.
+
+Services:
+Viclick Data Ventures provides data analytics services, including data analysis, predictive analytics, data visualization, and data integration services. Our services are designed to help clients turn their data into actionable insights that drive business growth.
+
+Client Obligations:
+Clients of Viclick Data Ventures are responsible for providing us with accurate and complete data for analysis, and for ensuring that their use of our services complies with all applicable laws and regulations.
+
+Confidentiality:
+Viclick Data Ventures is committed to maintaining the confidentiality of client data and will take all reasonable steps to protect it from unauthorized access or use.
+
+Limitation of Liability:
+Viclick Data Ventures will not be liable for any damages arising from the use of our services, including but not limited to indirect, incidental, punitive, or consequential damages, even if we have been advised of the possibility of such damages.
+
+Intellectual Property:
+Viclick Data Ventures retains all intellectual property rights in the software, technologies, and processes used to provide our services. Clients of Viclick Data Ventures do not acquire any rights in these technologies or processes.
+
+Termination:
+Either party may terminate this agreement at any time, with or without cause, by giving written notice to the other party.
+
+Governing Law:
+These Terms will be governed by and construed in accordance with the laws of the jurisdiction in which Viclick Data Ventures operates.
+
+Changes to Terms:
+Viclick Data Ventures reserves the right to modify these Terms at any time, and such changes will become effective immediately upon posting to our website. Your continued use of our services constitutes your acceptance of these changes.
+
+Contact Us:
+For any questions or concerns regarding these Terms, please contact us at [Insert Contact Information].
+
+By using the services of Viclick Data Ventures, you acknowledge that you have read and understood these Terms, and that you agree to be bound by them -->

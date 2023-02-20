@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title> VickyPay.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="./styledash.css">
+</head>
+<body> 
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+            <header>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars">
+                    </i>
+                </a>
+                <a href="DASH!.html"class="brand-logo">
+                <i class="fas fa-user">
+
+                </i> 
+                <!-- <span class="text-muted text-dark" id="diplay">Dear, </span>  -->
+                <!-- Kindly note dis ooo change it back because of the id name  -->
+             </a>
+            </header>
+            <nav class="dashboard-nav-list">
+                <a href="DASH!.html" class="dashboard-nav-item">
+                    <i class="fas fa-home">
+                    </i>Home </a>
+                    <a href="DASH!.html" class="dashboard-nav-item active">
+                        <i class="fas fa-tachometer-alt">
+                        </i>DashBoard
+                    </a>
+                    <a href="#" class="dashboard-nav-item active">
+                        <i class="fas fa-tachometer-alt">
+                        </i> Data Transaction
+                    </a>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-file-upload">
+                    </i> Transactions </a>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-photo-video">
+                         </i>Others</a>
+                <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Transfer to Others</a><a
+                            href="#" class="dashboard-nav-dropdown-item">-Bonus to wallet</a><a
+                            href="#" class="dashboard-nav-dropdown-item">-My Refferals</a><a
+                            href="#" class="dashboard-nav-dropdown-item">-Video</a></div>
+                </div>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-users">
+
+                        </i> Account  </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#"  class="dashboard-nav-dropdown-item">-Profile</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Upgrade Account</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-KYC</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Pin Management</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Change Password</a></div>
+                </div>
+                <div class='dashboard-nav-dropdown'>
+                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">
+                        <i class="fas fa-money-check-alt"></i> Payments 
+                    </a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Manual Bank</a>
+                        <a href="#" class="dashboard-nav-dropdown-item">-Monie point</a>
+                        <a href="#" class="dashboard-nav-dropdown-item"> -Bank Transfer</a>
+                    </div>
+                </div>
+                <a href="#" class="dashboard-nav-item">
+                    <i class="fas fa-cogs"></i> Settings</a>
+                    <a href="profile.html" class="dashboard-nav-item">
+                        <i class="fas fa-user"></i> Profile </a>
+              <div class="nav-item-divider"></div>
+              <a  href="login.html" class="dashboard-nav-item">
+                <i class="fas fa-sign-out-alt"></i> Logout</a>
+            </nav>
+        </div>
+        <div class='dashboard-app'>
+            <header class='dashboard-toolbar'>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars">
+                    </i>
+                </a>
+            </header>
+       <div class="container bg-white col-lg-6 col-sm-12 mt-4">
+                    <header class="mx-auto text-center fw-lighter" style="font-size: 20px;">Transfer From Wallet Account</header>
+                    <div class="select mt-3">
+                        <h6 class="fw-lighter text-start">Account Name*</h6>
+                        <select name="" id="RecipentName" class="form-control">
+                            <option value="">---Select Bank Name---</option>
+                            <option value="Zenith">Zenith BANK</option>
+                            <option value="FCMB">FCMB BANK</option>
+                            <option value="POLARIS">POLARIS BANK</option>
+                            <option value="GTB">GTB</option>
+                            <option value="UBA">UBA</option>
+                            <option value="PALMPAY">PALMPAY</option>
+                            <option value="OPAY">OPAY</option>
+                            <option value="KUDA">KUDA</option>
+                        </select>
+                        <h6 class="text-muted fw-lighter" style="font-size: 12px;">Account Must be Aleast 11 Numbers</h6>
+                    </div>
+                    <div class="select mt-3">
+                        <h6 class="fw-lighter text-start">Account Number*</h6>
+                        <input type="number" placeholder="Enter your Account Number" class="form-control" id="AccountNumber">
+                    </div>
+                    <!-- <div class="select mt-3">
+                        <h6 class="fw-lighter text-start">Recipent Name*</h6>
+                        <input type="text" placeholder="Enter your Recipent Name" class="form-control" id="USername">
+                    </div> -->
+                    <div class="select mt-3">
+                        <h6 class="fw-lighter text-start">Amount*</h6>
+                        <input type="number" placeholder="Enter the Amount You Want to Withdraw" class="form-control" id="Allamount">
+                    </div>
+                    <div class="select mt-3 ms-5">
+        <button class="text-white fw-bold rounded-2 mx-auto w-75 ms-5  btn mt-3 mb-5" style="background-color: #110B94;" onclick="Withdrawowner()">Transfer</button>
+     </div>
+        </div>
+        <script>
+            let getBack = JSON.parse(localStorage.getItem('Customer'))
+           let getIndex = JSON.parse(localStorage.getItem('cur'))
+           let hi =[]
+           hi =getBack[getIndex].transactionHistory
+           console.log(hi);
+           let time  = new Date().toLocaleString();
+            console.log(time)
+            const Withdrawowner=()=>{
+
+                    getBack.map((user,i)=>{
+                        var tranhis ={
+                        status:"approved",
+                        Amount:Allamount.value,
+                        type:"Trasnfer",
+                        recname:user.surname + user.firstname,
+                        date: time
+                     }
+                     var rechis ={
+                        status:"approved",
+                        Amount:Allamount.value,
+                        type:"Recieved",
+                        Tranname:getBack[getIndex].surname + getBack[getIndex].firstname,
+                        date: time
+                     }
+
+                        if (user.acctNumber==AccountNumber.value) {
+                                Swal.fire({
+                                    title: `Are you sure you want to do transfer to ${user.username}`,
+                                    icon: 'warning',
+                                    showCancelButton: true,
+                                    confirmButtonColor: '#3085d6',
+                                    cancelButtonColor: '#d33',
+                                    confirmButtonText: 'Yes,transfer it!'
+                                    }).then((result) => {
+                                        if(result.isConfirmed){
+
+                                            Swal.fire({
+                                                title:`Enter Your pin`,
+                                                input:"password",
+                                                button:"ok",
+                                                
+                                            }).then((result)=>{
+                                                let Pin = result.value
+                                                if (result.isConfirmed) {
+                                                    if(Pin == getBack[getIndex].pin){
+                                                        user.balance += Number(Allamount.value)
+                                                        user.totalrec +=Number(Allamount.value)
+                                                        getBack[getIndex].balance -=Number(Allamount.value)
+                                                        getBack[getIndex].totaltransfer +=Number(Allamount.value)
+                                                        hi.push(tranhis)
+                                                        user.transactionHistory.push(rechis)
+                                                        localStorage.setItem('Customer', JSON.stringify(getBack)) 
+                                                        Swal.fire(
+                                                            'Transtion Approved',
+                                                            'Your Transaction has been made.Thanks for choosing Vicpay.com',
+                                                            'success'
+                                                            )
+                                                            setTimeout(() => {
+                                                                window.location.href="DASH!.html"
+                                                            },2000);
+                                                        }else{
+                                                            Swal.fire(
+                                                                'Failed',
+                                                                'Invalid Pin',
+                                                                'failed',
+                                                                'failed',
+                                                                )
+                                                        }
+                                                    }
+                                                })
+                                            }
+                                    })
+ 
+                        }
+                    })
+                }
+        </script>
+<script src="script.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>`

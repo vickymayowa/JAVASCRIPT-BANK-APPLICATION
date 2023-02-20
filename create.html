@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="shortcut icon" type="image" href="./pics/vickypaycom-low-resolution-logo-white-on-black-background.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome To VickyPay/Login Information</title>
+</head>
+<body>
+    <div class="row mx-auto">
+    <div class="main6 fw-lighter">
+             <div class="text-center section text-center bg-white shadow  rounded-3 fw-lighter">
+                 <div class="container text-center fw-lighter col-lg-6 col-sm-10 " style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                                 <img src="./pics/vickypaycom-high-resolution-logo-black-on-white-background-removebg-preview.png" height="120" class=" ms-4 mw-100 mx-auto" alt="image">
+                                <h2 class="text-dark fw-bolder mt-4" style="font-family: Georgia, 'Times New Roman', Times, serif;">Create An Account</h2>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">SurName</h5>
+                                    <input type="text" placeholder="Enter Your Surname" class="fw-ligther form-control fw-bolder"id="sn" >
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">FullName</h5>
+                                    <input type="text" placeholder="Enter Your Fullname" class="fw-ligther form-control fw-bolder"id="fn" >
+                                    <div id="away"></div>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">UserName</h5>
+                                    <input type="text" placeholder="Enter Your Username" class="fw-ligther form-control fw-bolder"id="us" >
+                                    <div id="pla" class="text-start text-muted fw-lighter" style="font-size: 12px;">Username Can only contain letters and numbers</div>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Password</h5>
+                                    <input type="password" placeholder="Enter your Password" class="fw-ligther form-control fw-bolder"id="pn" >
+                                    <div id="disp" class="text-muted text-start fw-lighter" style="font-size: 12px;">Password Must Be Atleast 5 numbers
+                                    </div>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Email</h5>
+                                    <input type="text" placeholder="Enter your Email Address" class="fw-ligther form-control fw-bolder"id="em" >
+                                    <div id="display" class="text-start"></div>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Date of Birth</h5>
+                                    <input type="date" name="Date of Birth" id="dob" class="form-control">
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Phone Number</h5>
+                                    <input type="number" placeholder="Enter Your Phone Number" class="fw-ligther form-control fw-bolder" id="ph">
+                                    <div id="play" class="text-start"></div>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Address</h5>
+                                    <input type="text" placeholder="Enter Your Address"  class="fw-ligther form-control fw-bolder" id="an">
+                                    <div id="align" class="text-start"></div>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Are You a Nigerian</h5>
+                                    <select name="select" id="nation" class="form-control">Choose..............
+                                        <option value="">Select............</option>
+                                        <option value="YES">YES</option>
+                                        <option value="NO">NO</option>
+                                    </select>
+                                </div>
+                                <div class="clas ">
+                                    <h5 class="fw-lighter text-start mt-2">State of Origin</h5>
+                                    <select name="" id="State" class="form-control">
+                                        <option value="">Choose.....................</option>
+                                        <option value="Not A Nigerian">Not A Nigerian Citizen</option>
+                                        <option value="Abia State (Umuahia)">Abia State (Umuahia)</option>
+                                        <option value="Adamawa State (Yola)">Adamawa State (Yola)</option>
+                                        <option value="Akwa Ibom State (Uyo">Akwa Ibom State (Uyo</option>
+                                        <option value="Anambra State (Awka)">Anambra State (Awka)</option>
+                                        <option value="Bauchi State (Bauchi)">Bauchi State (Bauchi)</option>
+                                        <option value="Bayelsa State (Yenagoa)">Bayelsa State (Yenagoa)</option>
+                                        <option value="Benue State (Makurdi)">Benue State (Makurdi)</option>
+                                        <option value="Borno State (Maiduguri)">Borno State (Maiduguri)</option>
+                                        <option value="Cross River State (Calabar)">Cross River State (Calabar)</option>
+                                        <option value="Delta State (Asaba)">Delta State (Asaba)</option>
+                                        <option value="Ebonyi State (Abakaliki)">Ebonyi State (Abakaliki)</option>
+                                        <option value="Edo State (Benin City)">Edo State (Benin City)</option>
+                                        <option value="Ekiti State (Ado Ekiti)">Ekiti State (Ado Ekiti)</option>
+                                        <option value="Enugu State (Enugu)">Enugu State (Enugu)</option>
+                                        <option value="Gombe State (Gombe)">Gombe State (Gombe)</option>
+                                        <option value="Imo State (Owerri)">Imo State (Owerri)</option>
+                                        <option value="Jigawa State (Dutse)">Jigawa State (Dutse)</option>
+                                        <option value="Kaduna State (Kaduna)">Kaduna State (Kaduna)</option>
+                                        <option value="Kano State (Kano)">Kano State (Kano)</option>
+                                        <option value="Katsina State (Katsina)">Katsina State (Katsina)</option>
+                                        <option value="Kebbi State (Birnin Kebbi)">Kebbi State (Birnin Kebbi)</option>
+                                        <option value="Kogi State (Lokoja)">Kogi State (Lokoja)</option>
+                                        <option value="Kwara State (Ilorin)">Kwara State (Ilorin)</option>
+                                        <option value="Kwara State (Ilorin)">Kwara State (Ilorin)</option>
+                                        <option value="Lagos State (Ikeja)">Lagos State (Ikeja)</option>
+                                        <option value="Nasarawa State (Lafia)">Nasarawa State (Lafia)</option>
+                                        <option value="Niger State (Minna)">Niger State (Minna)</option>
+                                        <option value="Ogun State (Abeokuta)">Ogun State (Abeokuta)</option>
+                                        <option value="Ondo State (Akure)">Ondo State (Akure)</option>
+                                        <option value="Osun State (Oshogbo)">Osun State (Oshogbo)</option>
+                                        <option value="Oyo State (Ibadan)">Oyo State (Ibadan)</option>
+                                        <option value="Plateau State (Jos)">Plateau State (Jos)</option>
+                                        <option value="Rivers State (Port Harcourt)">Rivers State (Port Harcourt)</option>
+                                        <option value="Sokoto State (Sokoto)">Sokoto State (Sokoto)</option>
+                                        <option value="Taraba State (Jalingo)">Taraba State (Jalingo)</option>
+                                        <option value="Yobe State (Damaturu)">Yobe State (Damaturu)</option>
+                                        <option value="Zamfara State (Gusau)">Zamfara State (Gusau)</option>
+                                        <option value="Fct Abuja (Central capital Territory">Fct Abuja (Central capital Territory</option>
+                                    </select>
+                                </div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">NIN</h5>
+                                    <input type="number" placeholder="Enter Your NIN Number" class="fw-ligther form-control fw-bolder" id="nin">
+                                    <div id="away" class="text-start fw-lighter"></div>
+                                <div class="clas">
+                                    <h5 class="fw-lighter text-start mt-2">Gender</h5>
+                                    <select name="" id="select" class="form-control mb-5">
+                                        <option value="">Select ....................</option>
+                                        <option value="male">Male</option>
+                                        <option value="Female">Female</option>
+                                </div>
+                                <div class="lastinput">
+                                    <span class="text-light fw-bolder" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><h4>
+                                    <input type="checkbox" name="" id="check"> By Creating an Account With us, You Agree to our <span class="text" style="text-decoration: underline; color: blue;">Terms and conditions  of Service and Privacy Policy </span>and our default Notification Settings.</h4></span>
+                                    <div id="ques"></div>
+                                </div>
+                                <div class="button">
+                                    <button class="btn btn-success mb-4 mt-4 mx-auto" onclick="HELLO()">Create An Account</button>
+                                </div>
+                                <div class="clas">
+                                    <span class="text-muted">Already have an Account
+                                        <a href="./login.html">Login Here</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="set.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
